@@ -62,30 +62,6 @@
             "type": "git"
           },
           {
-            "type": "dotnet",
-            "style": "powerline",
-            "powerline_symbol": "",
-            "foreground": "#000000",
-            "background": "#00ffff",
-            "template": "  {{ .Full }} "
-          },
-          {
-            "type": "java",
-            "style": "powerline",
-            "powerline_symbol": "",
-            "foreground": "#ffffff",
-            "background": "#4063D8",
-            "template": "  {{ .Full }}"
-          },
-          {
-            "type": "node",
-            "style": "powerline",
-            "powerline_symbol": "",
-            "foreground": "#ffffff",
-            "background": "#6CA35E",
-            "template": "  {{ .Full }} "
-          },
-          {
             "background": "#33DD2D",
             "background_templates": [
               "{{ if gt .Code 0 }}#f1184c{{ end }}"
